@@ -1,0 +1,121 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300italic' rel='stylesheet' type='text/css'>
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: #A2784E;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5rem;
+	color: #FCEE23;
+	padding: 1rem;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: #FBB041;
+	padding: 1rem;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	color: white;
+}
+
+
+
+.drinks {
+	padding-left: 1rem;
+	background-color: #764E2A;
+	padding-top: 1rem;
+}
+
+.leaves {
+	padding: 1rem;
+}
+
+.drinksback {
+	background-color: #764E2A;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.drinkstype {
+	padding-left: 1rem;
+}
+
+.svg {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin: 1rem;
+	background-color: #764E2A;
+	border-radius: 10px;
+	
+}
+
+
+
+@media only screen and (min-width: 20em) {
+   .svg:hover {
+	transform: scale(1);
+}
+    
+}
+
+
+@media only screen and (min-width: 38em) {
+    .svg:hover {
+	transform: scale(1.5);
+}
+   
+ }
+
+@media only screen and (min-width: 60em) { 
+	.svg:hover {
+	transform: scale(1.5);
+}
+} 
+   
