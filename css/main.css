@@ -64,12 +64,17 @@ p {
 	color: white;
 }
 
+.open {
+	padding-right: 5rem;
+	padding-left: 1rem;
+	margin-right: 20rem;
+}
 
 
 .drinks {
-	padding-left: 1rem;
-	background-color: #764E2A;
-	padding-top: 1rem;
+	margin: 10rem;
+	min-width: 70%;
+	max-width: 80%;
 }
 
 .leaves {
